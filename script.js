@@ -1,0 +1,20 @@
+$('nav a').on('click', function(e) {
+    if (this.hash !== '') {
+      e.preventDefault();
+  
+      const hash = this.hash;
+  
+      $('html, body').animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800
+      );
+    }
+  });
+  
+
+  $('.menu-btn').on('click', function() {
+    $('nav ul').toggleClass('show');
+  });
+  

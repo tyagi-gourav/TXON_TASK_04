@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+  }
+ body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1086b45d;
+  }
+  
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #8b91e4;
+    color: #0f0f0f;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    font-size: x-large;
+    font-weight: bolder;
+    width: 30vw;
+    height: 2vh;
+    gap: 40px;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+ 
+  #skills {
+    padding: 50px;
+    background-color: #58aa6d;
+  }
+  
+  #skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  #skills li {
+    padding: 10px;
+    border: 1px solid #410707;
+    border-radius: 5px;
+  }
+  
+ 
+  #about {
+    padding: 50px;
+    background-color: #a755087e;
+    font-size: larger;
+    font-weight: 400;
+  }
+  
+  #about h2 {
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    margin-bottom: 20px;
+  }
+  
+  #contact {
+    padding: 50px;
+    background-color: #24b893;
+    font-size: larger;
+    font-weight: 400;
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    margin-bottom: 20px;
+  }
+  
+  #contact a {
+    color: #e60a0a;
+    text-decoration: none;
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  img[alt="Logo"]{
+    border-radius: 30000px;
+    height: 100px;
+    width: 100px;
+
+
+  }
